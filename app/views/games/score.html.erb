@@ -1,0 +1,12 @@
+<h1>Result</h1>
+
+<p>Your attempt: <%= @word %></p>
+<p>Your score: <%= @result[0] %></p>
+<p>Your attempt is <%= @result[1] %>!</p>
+
+
+<p>Your cumul score: <%= session[:cumul_score] %></p>
+
+<%= link_to "Play again", new_path %>
+
+
